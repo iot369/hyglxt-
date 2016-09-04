@@ -1,0 +1,441 @@
+﻿body
+{
+	margin: 0px;
+}
+
+
+/* FieldSet的GroupBox风格 */
+.FieldSet
+{
+	font-size: 9pt;
+	color: #0000ff;
+	font-family: "宋体";
+	font-style: normal;
+}
+
+/* ==============================================列表表格======================================== */
+.GridBar
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #95b8e7 #95b8e7 #dddddd #95b8e7;
+	width: 100%;
+	margin-right: 10px;
+	text-align: center;
+}
+.GridBar th
+{
+	background-image: url(../images/formimg/thbg1.jpg);
+	height: 22px;
+	font-size: 12px;
+	text-align: center;
+}
+.GridBar td
+{
+	border: 1px solid #dddddd;
+	font-size: 12px;
+	height: 20px;
+}
+
+.GridBartr
+{
+	background-color: #fafafa;
+}
+
+.GridBar tr:hover
+{
+	background-color: #efffca;
+	z-index: 99;
+}
+
+.msttop
+{
+	background-image: url(../images/tableth.png);
+	background-repeat: repeat-x;
+	font-size: 12px;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #CCCCCC;
+}
+.msttd
+{
+	font-size: 12px;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #CCCCCC;
+}
+.girdxuhao
+{
+	border-width: 1px;
+	border-color: #dddddd;
+	background-image: url(../images/formimg/thbg1.jpg);
+	height: 22px;
+	font-size: 12px;
+	font-family: 宋体;
+	font-weight: normal;
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-left-style: dotted;
+}
+
+.thleft
+{
+	text-align: left;
+	padding-left: 3px;
+}
+
+.thright
+{
+	text-align: right;
+	padding-right: 3px;
+}
+
+
+.divgirdtop
+{
+	border-width: 1px;
+	border-color: #95b8e7;
+	height: 27px;
+	background-image: url(../images/formimg/girltop.jpg);
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	line-height: 27px;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 2px;
+}
+.divall
+{
+	padding: 2px;
+	overflow: hidden;
+}
+
+.divgirdtop img
+{
+	padding-left: 2px;
+	padding-right: 3px;
+	margin-top: -2px;
+}
+
+.pagechange
+{
+	padding-left: 5px;
+	color: #999999;
+	font-family: 微软雅黑;
+	line-height: 20px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-color: #95b8e7;
+	border-bottom-color: #95b8e7;
+	border-left-color: #95b8e7;
+	height: 27px;
+	background-image: url(../images/formimg/pagebg.jpg);
+}
+
+
+.tooldiv
+{
+	border: 1px solid #95b8e7;
+	background-color: #e0ecff;
+	line-height: 29px;
+	vertical-align: middle;
+	font-size: 13px;
+	height: 29px;
+	margin-bottom: 2px;
+}
+
+.tooldiv img
+{
+	padding-left: 1px;
+	padding-right: 2px;
+	padding-top: 1px;
+}
+.tooldiv span
+{
+	padding-left: 1px;
+	padding-right: 2px;
+	font-family: 宋体, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+
+
+
+.tooldiv a
+{
+	color: #005eac;
+	cursor: pointer;
+	padding: 2px 5px 4px 5px;
+	margin-left: 2px;
+}
+.tooldiv a:visited, a:active
+{
+	color: #005eac;
+}
+
+.tooldiv a:hover
+{
+	background-image: url(../images/formimg/toolbtn.png);
+}
+
+
+/* ======================================添加表格====================================================== */
+.addedit
+{
+	border: 1px solid #95b8e7;
+	width: 100%;
+	color: #000000;
+	font-size: 12px;
+	font-family: 宋体;
+	font-weight: normal;
+	margin-right: 10px;
+	text-align: center;
+}
+.addedit th
+{
+	border: 1px solid #d2d2d2;
+	height: 25px;
+	font-size: 12px;
+	font-family: 宋体;
+	font-weight: normal;
+	text-align: right;
+	width: 100px;
+	background-color: #fafafa;
+}
+.addedit td
+{
+	border-width: 1px;
+	border-color: #d2d2d2;
+	font-size: 12px;
+	height: 25px;
+	font-family: 宋体;
+	font-weight: normal;
+	text-align: left;
+	padding-top:1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	padding-left: 4px;
+	line-height: 22px;
+}
+
+.divgirdbottom
+{
+	border-width: 1px;
+	border-color: #95b8e7;
+	height: 30px;
+	background-image: url(../images/formimg/girlbottom.jpg);
+	border-right-style: solid;
+	border-left-style: solid;
+	line-height: 30px;
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom-style: solid;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.spanxing
+{
+	color: Red;
+	padding: 2px;
+}
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------输入控件风格 ----------------------------------------------*/
+/* 方框型TextBox */
+.InputCss
+{
+	font-size: 9pt;
+	color: #003399;
+	font-family: "宋体";
+	font-style: normal; /*background-color: #CCCC99; */
+	border-color: blue blue blue blue;
+	border: 1px blue solid;
+}
+/* 下画线型的TextBox样式 */
+.InputLine
+{
+	border-color: #FFFFFF #FFFFFF #333333 #FFFFFF;
+	font-family: "宋体";
+	font-size: 9pt;
+	color: #0066CC;
+	text-decoration: none;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+/* 无方框型TextBox */
+.InputNone
+{
+	font-size: 9pt;
+	color: #0066CC;
+	font-family: "宋体";
+	font-style: normal;
+	border: 0px solid #003390;
+}
+/* 单据明细Table中的TextBox样式 */
+.InputDetail
+{
+	font-size: 9pt;
+	color: Blue;
+	font-family: "宋体";
+	font-style: normal;
+	border: 0px solid #003390;
+	background-color: #E0E9F8;
+}
+
+/* ----------------------------------------------------菜单 ----------------------------------------------*/
+ul#sidemenu, ul#sidemenu ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 155px;
+}
+ul#sidemenu a
+{
+	display: block;
+	text-decoration: none;
+}
+ul#sidemenu li
+{
+	margin: 5px auto;
+}
+ul#sidemenu li a
+{
+	background-image: url(../main/images/list.png);
+	font-size: 13px;
+	color: #333333;
+	height: 36px;
+	line-height: 35px;
+	padding-left: 10px;
+}
+ul#sidemenu li a: hover
+{
+	background: #000;
+}
+ul#sidemenu li ul li a
+{
+	background-image: url(../main/images/list2.png);
+	color: #000000;
+	padding-left: 30px;
+	height: 36px;
+	line-height: 32px;
+}
+ul#sidemenu li ul li a: hover
+{
+	background: #aaa;
+	border-left: 5px #000 solid;
+	padding-left: 15px;
+}
+
+/* ----------------------------------------------------桌面 ----------------------------------------------*/
+.l-case-title
+{
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+body, html
+{
+	height: 100%;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#winlinks
+{
+	position: absolute;
+	top: 20px;
+	margin-left: 20px;
+	float: left;
+}
+#winlinks ul
+{
+	position: relative;
+	top: 0px;
+}
+#winlinks li
+{
+	width: 70px;
+	cursor: pointer;
+	height: 80px;
+	position: absolute;
+	z-index: 101;
+	list-style: none;
+	text-align: center;
+}
+#winlinks li img
+{
+	width: 55px;
+	height: 55px;
+}
+#winlinks li span
+{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+	border-radius: 10px 10px 10px 10px;
+	display: block;
+	font-size: 13px;
+	margin-top: 1px;
+	color: White;
+	line-height: 18px;
+	text-align: center;
+}
+#winlinks li.l-over div.bg
+{
+	display: block;
+}
+#winlinks li div.bg
+{
+	display: none;
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	z-index: 0;
+	width: 75px;
+	height: 75px;
+	opacity: 0.1;
+	background-image: url( '../main/images/iconbgg.png' );
+	filter: alpha(opacity=20);
+}
+.l-taskbar-task-icon
+{
+	top: 3px;
+	left: 6px;
+	background-image: none;
+}
+.l-taskbar-task-content
+{
+	margin-left: 30px;
+}
+.l-taskbar-task-icon img
+{
+	width: 22px;
+	height: 22px;
+}

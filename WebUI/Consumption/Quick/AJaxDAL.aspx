@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AJaxDAL.aspx.cs" Inherits="AJaxDAL" %>

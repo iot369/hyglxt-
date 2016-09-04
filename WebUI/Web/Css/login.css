@@ -1,0 +1,65 @@
+﻿html, body
+{
+	height: 100%;
+	margin: 0px;
+	
+}
+#a
+{
+	width: 100%;
+	height: 100%;
+	background-color: #33CCCC;
+	
+}
+#mainbody
+{
+	width: 100%;
+	height: 100%;
+}
+/*头部布局 */
+.Top
+{
+	width: 100%;
+	height: 15%;
+	background-color: #0088D0;
+	text-align: center;
+	color: White;
+}
+.Top_logo
+{
+	width: 100%;
+	height: 40%;
+}
+/*头部布局 */
+.Center
+{
+	width: 100%;
+	height: 75%;
+	text-align: center;
+}
+.Center_Content
+{
+	margin-left:10%;
+ padding-top:10%;
+	width: 80%;
+	height: 50%;
+}
+.login
+{
+	width: 50%;
+	height: 200px;
+	text-align:center;
+}
+.login_input
+{
+	margin-top: 20px;
+	width: 50%;
+	height: 80px;
+	
+}
+/*头部布局 */
+.footer
+{
+	width: 100%;
+	height: 10%;
+}

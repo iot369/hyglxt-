@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Ajaxlogin.aspx.cs" Inherits="Ajaxlogin" %>

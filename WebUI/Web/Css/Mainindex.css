@@ -1,0 +1,65 @@
+﻿html, body
+{
+	height: 100%;
+	margin: 0px;
+}
+a:link, a:visited
+{
+	text-decoration: none; /*超链接无下划线*/
+	color: Black;
+}
+#mainbody
+{
+	width: 100%;
+	height: 100%;
+	
+}
+/**   头部   **/
+.top
+{
+	width: 100%;
+	height: 15%;
+	float: left;
+	background-color: #0088D0;
+}
+.top_a
+{
+	width: 100%;
+	height: 25%;
+	font-size: 100%;
+	color: #FFFFFF;
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 2%;
+	font-family: 宋体, Arial, Helvetica, sans-serif;
+}
+/**   主部   **/
+.Center
+{
+	width: 100%;
+}
+.CenterDetail
+{
+	width: 100%;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #C0C0C0;
+}
+
+/**  返回栏 **/
+.return
+{
+	background-position: bottom;
+	width: 100%;
+	height: 10%;
+	text-align: center;
+	color: White;
+	background-image: url('../../meeting/back.png');
+	background-repeat: repeat-x;
+}
+/**  发邮件  **/
+.send
+{
+	width:100%;
+	 height:90%;
+}
